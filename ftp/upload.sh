@@ -1,7 +1,7 @@
 #!/bin/bash
 ftp -n << !
-open lomo.cc
-user lomo u2u8vzrsx8re
+open host
+user lomo password
 binary
 hash
 cd public_html/simple/widget
